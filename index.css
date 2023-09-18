@@ -1,0 +1,76 @@
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #000000;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  background: #161722c0;
+  border-radius: 10px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.text {
+  padding: 1em;
+  color: rgb(244, 245, 247);
+  justify-content: center;
+  position: absolute; /* Change position to absolute */
+  top: 50%; /* Place it 50% from the top */
+  left: 11%; /* Place it 50% from the left */
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.space {
+  height: 10px;
+}
+
+#videoBG {
+  position:fixed;
+  z-index: -1;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.demoVideo {
+  position: fixed;
+  z-index: 2;
+  background-color: transparent;
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 11.458333333333%;
+  top: 11.111111111111%;
+  position: absolute; /* Change position to absolute */
+  top: 27%; /* Place it 50% from the top */
+  left: 38%; /* Place it 50% from the left */
+  transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+  border-radius: 10px;
+}
